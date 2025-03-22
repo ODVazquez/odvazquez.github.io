@@ -1,3 +1,6 @@
+/* Import Courier Prime font */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
 /* Page wrapper */
 .page-wrapper {
     min-height: 100vh;
@@ -49,10 +52,11 @@
     width: 50%;
     opacity: 0;
     animation: fadeInUp 0.6s ease 0.2s forwards;
+    font-family: 'Courier Prime', monospace;
 }
 
 .definition {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Courier Prime', monospace;
 }
 
 .definition h3 {
@@ -66,12 +70,15 @@
     font-style: italic;
     margin-bottom: 5px;
     color: #d1cdbf;
+    font-size: 1.2rem;
 }
 
 .definition .pronunciation {
-    font-family: monospace;
+    font-family: 'Courier Prime', monospace;
     margin-bottom: 20px;
     color: #d1cdbf;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
 }
 
 .definition-list {
